@@ -1,34 +1,39 @@
-body{
-      background-color: #f7cacec9;
-      font-family: Helvetica, Arial, sans-serif;
+body {
+  background-color: #dacbcdc9;
+  font-family: "Roboto", sans-serif;
 }
+
 a {
-  color: #bd444ea4;
+  color: #a53a43ee;
 }
 
 .container {
-  margin: 120px auto;
+  background: white;
   max-width: 600px;
+  margin: 120px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
 header {
   margin-bottom: 30px;
 }
 
-h1{
-    text-align: center;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 1.5;
-    color: #272044;
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #631f24ee;
 }
 
 .form-container{
-    background-color: white;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-    padding: 15px 20px;
+  background-color: #dacbcdc9;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  padding: 15px 20px;
 }
 
 form {
@@ -63,12 +68,17 @@ form {
   padding: 14px 24px;
 }
 
-.hidden {
-  display: none;
+.poem {
+  font-size: 16px;
+  background-color: #dacbcdc9;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #a53a43ee;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
 
-.poem strong {
-  color: #885df1;
+.hidden{
+  display: none;
 }
 
 footer {
