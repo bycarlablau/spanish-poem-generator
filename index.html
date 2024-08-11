@@ -15,25 +15,22 @@
         </header>
 
         <main>
+            <div class="form-container">
             <form id="poem-generator-form">
-                <input 
-                type="text" 
-                placeholder="Enter topic here"
+                <input
+                type="text"
+                placeholder="Enter the topic of a French poem"
                 autofocus
                 required
                 autocomplete="off"
                 class="instructions"
                 id="user-instructions"
                 />
-                <input type="submit" class="submit-button"/>
+                <input type="submit" class="submit-button" />
             </form>
-            <div class="poem" id="poem">
-                En las noches claras,
-                <br />
-                resuelvo el problema de la soledad del ser.
-                <br />
-                Invito a la luna y con mi sombra somos tres.
+            <div class="hint">i.e: Flower, Paris or Cheese</div>
             </div>
+            <div class="poem hidden" id="poem"></div>
         </main>
     
         <footer>This project was coded by 
